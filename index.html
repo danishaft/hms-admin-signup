@@ -34,21 +34,22 @@
     </header>
 
     <div class="container">
+       <form action="" method="" id="admin-signup-form">
         <div class="admin-signup lg-width-50 mx-auto p-lg-5 p-md-5 p-4 bg-neutral-4 opacity-75 my-5">
             <h6 class="text-center fs-headline-3 fw-700 text-grey-1 width-100 mb-4">Create Admin Account</h6>
             <div class="input-group width-100 mb-3">
                 <p class="fs-copyright mb-1 fw-500 ">Full Name</p>
-                <input type="text" name="name" id="" class="form-input-1 admin-signup-input  width-100 fs-copyright py-3 px-5 mt-1 text-black  bdr-rad-2" placeholder="Full Name">
+                <input type="text" name="name" id="admin-signup-fname" class="form-input-1 admin-signup-input  width-100 fs-copyright py-3 px-5 mt-1 text-black  bdr-rad-2" placeholder="Full Name">
                 <img src="img/name-input.png" alt="" class="input-icon">
             </div>
             <div class="input-group width-100 mb-3">
                 <p class="fs-copyright mb-1 fw-500">Email</p>
-                <input type="Email" name="Email" id="" class="form-input-1 admin-signup-input  width-100 fs-copyright py-3 px-5 mt-1 text-black" placeholder="Email">
+                <input type="Email" name="Email" id="admin-signup-email" class="form-input-1 admin-signup-input  width-100 fs-copyright py-3 px-5 mt-1 text-black" placeholder="Email">
                 <img src="img/email-input.png" alt="" class="input-icon">
             </div>
             <div class="input-group width-100 mb-3">
                 <p class="fs-copyright mb-1 fw-500">Position </p>
-                <input type="text" name="Position " id="" class="form-input-1 admin-signup-input  width-100 fs-copyright py-3 px-5 mt-1 text-black" placeholder="Position ">
+                <input type="text" name="Position " id="admin-signup-position" class="form-input-1 admin-signup-input  width-100 fs-copyright py-3 px-5 mt-1 text-black" placeholder="Position ">
                 <img src="img/da-position.png" alt="" class="input-icon">
             </div>
             <div class="input-group width-100 mb-3 position-relative">
@@ -69,12 +70,13 @@
                     <img src="img/eye-closed.png" id="eye-closed2" class="password-eyes eye-closed">
                 </div>
             </div>
-            <button class="signup-primary-btn w-100 text-center fs-input fw-700 text-white bdr-rad-2 py-3 my-4">Sign up</button>
-            <div class="sigup-option d-flex justify-content-lg-between justify-content-md-between  fs-input ">
+            <button type="submit" id="admin-signup-btn" class="signup-primary-btn w-100 text-center fs-input fw-700 text-white bdr-rad-2 py-3 my-4">Sign up</button>
+            <div class="sigup-option d-flex justify-content-center  fs-input ">
                 <p class="text-grey-2 ">Already have an account?</p>
-                <p class="text-pink fw-700">Login here</p>
+                <a href="#" class="text-pink fw-700">Login here</a>
             </div>
         </div>
+       </form>
     
     </div>
 
